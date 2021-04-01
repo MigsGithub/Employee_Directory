@@ -1,0 +1,22 @@
+.datatable .head {
+    cursor: pointer;
+    background-color:blue;
+    color: white;
+    font-size: 1.2em;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.datatable{
+    text-align: justify;
+    text-align: right;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.datatable td{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.datatable tr:hover {background-color: aqua;}
