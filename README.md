@@ -4,6 +4,8 @@ Unit 19 React Homework: Employee Directory
 
 Employee Directory webpage
 
+https://migs-employee-directory.herokuapp.com
+
 ## User Story
 
 * You will be able to view my entire employee directory at once so that you can have quick access to their information.
