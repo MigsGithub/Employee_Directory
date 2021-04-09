@@ -2,6 +2,8 @@ import React, {useState, useEffect} from "react";
 import DataTable from "../DataTable";
 import API from "../../utils/API";
 import DataAreaContext from "../../utils/DataAreaContext"
+import Header from '../Header';
+
 
 const DataArea = () => {
       const [developerState, setDeveloperState] = useState({
@@ -86,7 +88,7 @@ return b[heading]-  a[heading];
         <DataAreaContext.Provider
           value={{ developerState, handleSearchChange, handleSort }}
         >
-       
+       <Header/>
           <div className="data-area">
             {developerState.filteredUsers.length > 0 
     ? <DataTable />

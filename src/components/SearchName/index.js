@@ -4,6 +4,7 @@ import DataAreaContext from "../../utils/DataAreaContext";
 
 const SearchName = () => {
     const context = useContext(DataAreaContext);
+    console.log("searchnamecontext", context)
 
     return (
         <div className="searchbox">
@@ -13,7 +14,7 @@ const SearchName = () => {
                     type="search"
                     placeholder="Search"
                     aria-label="Search"
-                    onChange={e => context.handleSearchChange(e)}
+                    onChange={context.handleSearchChange}
                 />
                 <button className="btn" type="submit">
                     Search
